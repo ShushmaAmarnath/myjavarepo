@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController 
 {
 		
-	@GetMapping("https://api.starter-us-west-1.openshift.com/oapi/v1/namespaces/interviewscreening/buildconfigs/interviewbotapicode/webhooks/157654d9c207d0ef/github")
+	@GetMapping("/com.coviam.com/interviewscreeningbot")
 	public Response sayHello(@RequestParam (required = false, defaultValue="NULL")String Ans1, @RequestParam (required = false, defaultValue="NULL") String Ans2, @RequestParam (required = false, defaultValue="NULL") String Ans3, @RequestParam (required = false, defaultValue="NULL") String Ans4, @RequestParam (required = false, defaultValue="NULL") String Ans5, @RequestParam (required = false, defaultValue="NULL") String Ans6, @RequestParam (required = false, defaultValue="NULL") String Ans7, @RequestParam (required = false, defaultValue="NULL")String Ans8, @RequestParam (required = false, defaultValue="NULL")String Ans9 , @RequestParam (required = false, defaultValue="NULL")String Ans10 , @RequestParam (required = false, defaultValue="NULL")String Ans11 , @RequestParam (required = false, defaultValue="NULL")String Ans12 , @RequestParam (required = false, defaultValue="NULL")String Ans13 , @RequestParam (required = false, defaultValue="NULL")String Ans14 , @RequestParam (required = false, defaultValue="NULL")String Ans15 , @RequestParam (required = false, defaultValue="NULL")String Ans16 , @RequestParam (required = false, defaultValue="NULL")String Ans17 , @RequestParam (required = false, defaultValue="NULL")String Ans18 , @RequestParam (required = false, defaultValue="NULL")String Ans19 , @RequestParam (required = false, defaultValue="NULL")String Ans20)
 	{
 		Response response = new Response();
