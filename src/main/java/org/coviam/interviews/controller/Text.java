@@ -2,18 +2,18 @@ package org.coviam.interviews.controller;
 
 public class Text 
 {
-	private String options;
+	private String text;
 	
-	public Text(String options){
-		this.options = options;
+	public Text(String text){
+		this.text = text;
 	}
 	
-	public String getOptions() 
+	public String getText() 
 	{
-		return options;
+		return text;
 	}
-	public void setOptions(String options) 
+	public void setText(String text) 
 	{
-		this.options = options;
+		this.text = text;
 	}
 }

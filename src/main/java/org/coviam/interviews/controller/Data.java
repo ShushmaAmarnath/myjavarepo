@@ -5,7 +5,7 @@ import java.util.List;
 public class Data {
 	private String type;
 	private String text;
-	private List<Text> text1;
+	private List<Text> options;
 	
 	public String getType() {
 		return type;
@@ -19,11 +19,11 @@ public class Data {
 	public void setText(String text) {
 		this.text = text;
 	}
-	public List<Text> getText1() 
+	public List<Text> getOptions() 
 	{
-		return text1;
+		return options;
 	}
-	public void setText(List<Text> text1) {
-		this.text1 = text1;
+	public void setText(List<Text> options) {
+		this.options = options;
 	}
 }
